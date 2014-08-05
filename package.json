@@ -3,12 +3,18 @@
   "main": "./lib/block-comment",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationEvents": ["block-comment:toggle"],
+  "activationEvents": [
+    "block-comment:toggle"
+  ],
+  "scripts": {
+      "test": "./node_modules/jasmine-node/bin/jasmine-node spec/"
+  },
   "repository": "https://github.com/atom/block-comment",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "jasmine-node": "~1.14.5"
   }
 }
