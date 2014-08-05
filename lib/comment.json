@@ -4,13 +4,17 @@
         "html": "<!--",
         "htm": "<!--",
         "rb": "#",
-        "coffee": "#"
+        "coffee": "#",
+        "cs": "//",
+        "class": "/*"
     },
     "suffix": {
         "js": "*/",
         "html": "-->",
         "htm": "-->",
         "rb": "",
-        "coffee": ""
+        "coffee": "",
+        "cs": "",
+        "class": "*/"
     }
 }
