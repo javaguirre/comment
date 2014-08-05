@@ -3,7 +3,7 @@
   "main": "./lib/block-comment",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationEvents": ["block-comment:insert"],
+  "activationEvents": ["block-comment:toggle"],
   "repository": "https://github.com/atom/block-comment",
   "license": "MIT",
   "engines": {

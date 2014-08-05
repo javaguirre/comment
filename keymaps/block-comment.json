@@ -1,5 +1,5 @@
 {
     ".editor": {
-        "cmd-alt-a": "block-comment:insert"
+        "shift-cmd-c": "block-comment:toggle"
     }
 }
