@@ -2,7 +2,7 @@
   "name": "comment",
   "main": "./lib/comment",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Insert block comments or single line comments on selected text with keyboard shortcut",
   "activationEvents": [
     "comment:toggle"
   ],
@@ -14,7 +14,7 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "jasmine-node": "~1.14.5"
   }
 }
