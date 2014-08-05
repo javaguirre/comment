@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable block-comment': 'block-comment:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'block-comment'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'block-comment:toggle' }
+      ]
+    ]
+  }
+]
