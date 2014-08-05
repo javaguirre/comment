@@ -1,13 +1,13 @@
 {
   "name": "comment",
   "main": "./lib/comment",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Insert block comments or single line comments on selected text with keyboard shortcut",
   "activationEvents": [
     "comment:toggle"
   ],
   "scripts": {
-      "test": "./node_modules/jasmine-node/bin/jasmine-node --verbose spec/"
+    "test": "./node_modules/jasmine-node/bin/jasmine-node --verbose spec/"
   },
   "repository": "https://github.com/havber/comment",
   "license": "MIT",
