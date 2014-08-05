@@ -1,5 +1,5 @@
 {
     ".editor": {
-        "shift-cmd-m": "block-comment:toggle"
+        "shift-cmd-m": "comment:toggle"
     }
 }

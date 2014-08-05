@@ -1,4 +1,4 @@
-# block-comment package
+# comment package
 
 Atom package for inserting block comments via keyboard shortcut
 
