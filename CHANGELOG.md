@@ -1,3 +1,4 @@
 ## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+Basic multiline toggling added
+
+support for .js, .html, .htm, .rb, .coffee
