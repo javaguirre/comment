@@ -7,7 +7,7 @@
     "block-comment:toggle"
   ],
   "scripts": {
-      "test": "./node_modules/jasmine-node/bin/jasmine-node spec/"
+      "test": "./node_modules/jasmine-node/bin/jasmine-node --verbose spec/"
   },
   "repository": "https://github.com/atom/block-comment",
   "license": "MIT",
