@@ -1,7 +1,7 @@
 {
   "name": "comment",
   "main": "./lib/comment",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Insert block comments or single line comments on selected text with keyboard shortcut",
   "activationEvents": [
     "comment:toggle"
@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "jasmine-node": "~1.14.5"
-    },
-    "dependencies": {
-        "sprint": "0.3.1"
-    }
+  },
+  "dependencies": {
+    "sprint": "0.3.1"
+  }
 }
