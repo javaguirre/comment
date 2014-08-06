@@ -12,7 +12,7 @@ First release supports block comments and single line comments for:
 * .class
 * .coffee
 * .cs
-* .html/.htm
+* .html/.htm (bug in single line comments will be fixed in v0.2.4)
 * .js
 * .rb
 
