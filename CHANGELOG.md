@@ -1,3 +1,7 @@
+## v.0.2.5
+* Bug fixes
+* Refactoring
+
 ## v0.2.4
 * Fixed single line comments for html files
 * Minor improvements
