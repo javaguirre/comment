@@ -1,4 +1,5 @@
 ## v.0.2.5
+* Added support for .md
 * Bug fixes
 * Refactoring
 

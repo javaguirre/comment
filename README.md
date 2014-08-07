@@ -16,6 +16,7 @@ First release supports block comments and single line comments for:
 * .cs
 * .html/.htm
 * .js
+* .md
 * .rb
 
 ## TODO
