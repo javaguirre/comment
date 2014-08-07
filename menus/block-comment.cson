@@ -1,13 +1,13 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable comment': 'comment:toggle'
+      'Toggle comment': 'comment:toggle'
 
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'comment'
+      'label': 'Comments'
       'submenu': [
         { 'label': 'Toggle', 'command': 'comment:toggle' }
       ]

@@ -1,29 +1,52 @@
 {
-    "prefix": {
-        "js": "/*\n",
-        "html": "<!--",
-        "htm": "<!--",
-        "rb": "#",
-        "coffee": "###\n",
-        "cs": "//",
-        "class": "/*"
+    "multiline": {
+        "prefix": {
+            "js": "/*\n",
+            "html": "<!--\n",
+            "htm": "<!--\n",
+            "rb": "#",
+            "coffee": "###\n",
+            "cs": "//",
+            "class": "/*"
+        },
+
+        "suffix": {
+            "js": "*/\n",
+            "html": "-->\n",
+            "htm": "-->\n",
+            "rb": "",
+            "coffee": "###",
+            "cs": "",
+            "class": "*/"
+        }
+
     },
-    "suffix": {
-        "js": "*/\n",
-        "html": "-->",
-        "htm": "-->",
-        "rb": "",
-        "coffee": "###",
-        "cs": "",
-        "class": "*/"
+
+    "singleline": {
+        "prefix": {
+            "js": "//",
+            "html": "<!-- ",
+            "htm": "<!-- ",
+            "rb": "#",
+            "coffee": "#",
+            "cs": "//",
+            "class": "//"
+        },
+
+        "suffix": {
+            "js": "",
+            "html": " -->",
+            "htm": " -->",
+            "rb": "",
+            "coffee": "",
+            "cs": "",
+            "class": ""
+        }
     },
-    "singleLine": {
-        "js": "//",
-        "html": "",
-        "htm": "",
-        "rb": "#",
-        "coffee": "#",
-        "cs": "//",
-        "class": "//"
+
+    "inline": {
+        "js": "/**/",
+        "html": "<!---->",
+        "htm": "<!---->"
     }
 }

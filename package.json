@@ -4,7 +4,8 @@
   "version": "0.2.4",
   "description": "Insert block comments or single line comments on selected text with keyboard shortcut",
   "activationEvents": [
-    "comment:toggle"
+    "comment:toggle",
+    "comment:toggleSingleLine"
   ],
   "scripts": {
     "test": "./node_modules/jasmine-node/bin/jasmine-node --verbose spec/"
