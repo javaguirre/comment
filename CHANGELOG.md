@@ -1,4 +1,7 @@
-## v.0.2.5
+## v0.2.6
+* Fixed ruby multiline comments
+
+## v0.2.5
 * Added support for .md
 * Bug fixes
 * Refactoring
