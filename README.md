@@ -2,6 +2,8 @@
 
 Atom package for inserting block- or single line comments via keyboard shortcut
 
+![alt tag](https://raw.github.com/havber/comment/master/example.gif)
+
 ## Usage
 Select the text you want to comment, and hit ```shift-cmd-m```
 If selection is empty, an empty comment block will be inserted
