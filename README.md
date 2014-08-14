@@ -10,16 +10,14 @@ Both block comments and single line comments are toggled on/off on ```shift-cmd-
 
 ## Language support
 ...is based on file extensions and will be added incrementally.
-First release supports block comments and single line comments for:
+Latest version supports
 * .class
 * .coffee
 * .cs
+* .css
 * .html/.htm
 * .js
+* .less
 * .md
 * .rb
-
-## TODO
-* Better error handling
-* Test coverage (learn to write testable javascript...)
-* Better language support
+* .yml

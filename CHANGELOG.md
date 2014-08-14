@@ -1,3 +1,8 @@
+## v0.2.7
+* Added support for .yml, .css and .less
+* Fixed multiline comments for filetypes that doesn't support block comments
+* Added example gi animation to README
+
 ## v0.2.6
 * Fixed ruby multiline comments
 
