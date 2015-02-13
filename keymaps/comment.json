@@ -1,5 +1,5 @@
 {
-    ".editor": {
+    "atom-text-editor": {
         "shift-cmd-m": "comment:toggle",
         "alt-cmd-m": "comment:toggleSingleLine"
     }
