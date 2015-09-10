@@ -1,3 +1,5 @@
+This package is no longer maintained. If anyone wants to take ownership, let me know.
+
 # comment package for atom
 
 Atom package for inserting block- or single line comments via keyboard shortcut
