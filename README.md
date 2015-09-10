@@ -23,3 +23,4 @@ Latest version supports
 * .md
 * .rb
 * .yml
+* .php
