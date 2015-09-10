@@ -1,7 +1,8 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Toggle comment': 'comment:toggle'
+  'atom-text-editor': [{
+    'label': 'Toggle comment', 'command': 'comment:toggle'
+  }]
 
 'menu': [
   {
