@@ -15,7 +15,7 @@
   "repository": "https://github.com/havber/comment",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "devDependencies": {
     "jasmine-node": "~1.14.5"
