@@ -1,5 +1,3 @@
-This package is no longer maintained. If anyone wants to take ownership, let me know.
-
 # comment package for atom
 
 Atom package for inserting block- or single line comments via keyboard shortcut
@@ -8,9 +6,13 @@ Atom package for inserting block- or single line comments via keyboard shortcut
 
 ## Usage
 Select the text you want to comment, and hit ```shift-cmd-m```
-If selection is empty, an empty comment block will be inserted
+If selection is empty, an empty comment block will be inserted.
 
 Both block comments and single line comments are toggled on/off on ```shift-cmd-m```
+by default. if you want to add It to your own keymap, you can do so using:
+
+`comment:toggle`
+`comment:toggleSingleLine`
 
 ## Language support
 ...is based on file extensions and will be added incrementally.
@@ -26,3 +28,6 @@ Latest version supports
 * .rb
 * .yml
 * .php
+* .py
+
+and more
