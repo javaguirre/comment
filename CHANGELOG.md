@@ -1,3 +1,6 @@
+## v0.3.0
+* Compatible with recent versions of Atom < 2.0.0
+
 ## v0.2.7
 * Added support for .yml, .css and .less
 * Fixed multiline comments for filetypes that doesn't support block comments
