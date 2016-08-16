@@ -13,7 +13,6 @@ describe("comment exposes", function() {
 });
 
 describe("comment utils", function() {
-
     it("removeComment python", function() {
         expect(utils.removeComment('#hello', 'py', 'singleline')).toBe('hello');
     });
@@ -48,6 +47,10 @@ describe("comment utils", function() {
 
     it("single line commented", function() {
         expect(utils.isSingleLineCommented('# hello', '#')).toBe(true);
+    });
+
+    it("single line commented indented", function() {
+        expect(utils.isSingleLineCommented('   # hello', '#')).toBe(true);
     });
 
     it("Get file extension python", function() {
