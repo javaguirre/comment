@@ -22,12 +22,30 @@ describe("comment utils", function() {
         expect(utils.removeComment('#hello', 'py', 'singleline')).toBe('hello');
     });
 
-    it("addComment", function() {
+    it("addComment fake", function() {
         expect(utils.addComment('hello', 'fake', 'singleline')).toBe('hello');
     });
 
-    it("addComment", function() {
+    it("addComment py", function() {
         expect(utils.addComment('hello', 'py', 'singleline')).toBe('# hello\n');
+    });
+
+    it("addComment singleline coffee", function() {
+        expect(
+            utils.addComment('hello', 'coffee', 'singleline')
+        ).toBe('# hello\n');
+    });
+
+    it("addComment multiline coffee", function() {
+        expect(
+            utils.addComment('hello', 'coffee', 'multiline')
+        ).toBe('###\nhello###\n');
+    });
+
+    it("addComment indented multiline coffee", function() {
+        expect(
+            utils.addComment('    hello', 'coffee', 'multiline')
+        ).toBe('    ###\n    hello    ###\n');
     });
 
     it("toggleComments uncommented", function() {
