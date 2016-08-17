@@ -13,6 +13,11 @@ describe("comment exposes", function() {
 });
 
 describe("comment utils", function() {
+
+    beforeEach(function() {
+        atom.config.set('comment.commentSuffix', ' ');
+    });
+
     it("removeComment python", function() {
         expect(utils.removeComment('#hello', 'py', 'singleline')).toBe('hello');
     });
@@ -22,11 +27,11 @@ describe("comment utils", function() {
     });
 
     it("addComment", function() {
-        expect(utils.addComment('hello', 'py', 'singleline')).toBe('#hello');
+        expect(utils.addComment('hello', 'py', 'singleline')).toBe('# hello\n');
     });
 
     it("toggleComments uncommented", function() {
-        expect(utils.toggleComments('hello', 'py', 'singleline')).toBe('#hello');
+        expect(utils.toggleComments('hello', 'py', 'singleline')).toBe('# hello\n');
     });
 
     it("toggleComments commented", function() {
