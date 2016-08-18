@@ -1,3 +1,9 @@
+## v0.4.0
+
+* Fix problems with non-supported languages
+* Improve code and comment indentation
+* elm, sass, cson and lhs support
+
 ## v0.3.0
 * Compatible with recent versions of Atom < 2.0.0
 
