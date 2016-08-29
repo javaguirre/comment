@@ -1,3 +1,7 @@
+## v0.5.0
+
+* Support for Lua by @Positive07
+
 ## v0.4.0
 
 * Fix problems with non-supported languages
