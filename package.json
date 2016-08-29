@@ -1,7 +1,7 @@
 {
   "name": "comment",
   "main": "./lib/comment",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Insert block comments or single line comments on selected text with keyboard shortcut",
   "activationCommands": {
     "atom-text-editor": [
