@@ -1,3 +1,8 @@
+## v0.6.0
+
+* Support for TeX
+* toggleComments fix
+
 ## v0.5.0
 
 * Support for Lua by @Positive07
