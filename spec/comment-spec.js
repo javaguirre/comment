@@ -76,6 +76,10 @@ describe("comment utils", function() {
         expect(utils.isSingleLineCommented('   # hello', '#')).toBe(true);
     });
 
+    it("single line commented no prefix return false", function() {
+        expect(utils.isSingleLineCommented('hello', '')).toBe(false);
+    });
+
     it("Get file extension python", function() {
         expect(utils.getExtension('file.py')).toBe('py');
     });
@@ -106,5 +110,9 @@ describe("comment utils", function() {
 
     it("Unsupported single line htm", function() {
         expect(utils.isUnsupportedSingleLine('htm')).toBe(true);
+    });
+
+    it("Process single line with no prefix returns same text", function() {
+        expect(utils.processSingleLineComment('hello', '')).toBe('hello');
     });
 });
