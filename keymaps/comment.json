@@ -1,6 +1,10 @@
 {
-    "atom-text-editor": {
+    ".platform-darwin atom-text-editor": {
         "shift-cmd-m": "comment:toggle",
         "alt-cmd-m": "comment:toggleSingleLine"
+    },
+    ".platform-win32 atom-text-editor, .platform-linux atom-text-editor": {
+        "shift-ctrl-m": "comment:toggle",
+        "alt-ctrl-m": "comment:toggleSingleLine"
     }
 }
