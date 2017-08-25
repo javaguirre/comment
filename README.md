@@ -28,5 +28,6 @@ Latest version supports
 * .yml
 * .php
 * .py
+* .lisp
 
 and more!
