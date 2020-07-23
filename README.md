@@ -1,4 +1,4 @@
-# DEPRECATED
+# DEPRECATED comment
 
 Atom provides this functionality by default in the last versions it seems, so this package is not needed anymore.
 
